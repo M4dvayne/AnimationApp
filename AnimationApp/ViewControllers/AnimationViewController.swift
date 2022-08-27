@@ -9,7 +9,7 @@ import UIKit
 import Spring
 
 class AnimationViewController: UIViewController {
-
+    
     @IBOutlet weak var animationLabel: UILabel!
     @IBOutlet weak var springAnimationView: SpringView!
     @IBOutlet weak var springButtonName: SpringButton!
@@ -21,7 +21,7 @@ class AnimationViewController: UIViewController {
         animationLabel.text = animation.description
         springButtonName.titleLabel?.text = animation.preset.description
     }
-
+    
     @IBAction func runSpringAnimation(_ sender: SpringButton) {
         
         animationLabel.text = animation.description

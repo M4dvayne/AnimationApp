@@ -5,11 +5,9 @@
 //  Created by Вячеслав Кремнев on 25.02.2022.
 //
 
-
 import Spring
 
 class DataManager {
-    
     static let shared = DataManager()
     
     let presets: [Spring.AnimationPreset] = [
@@ -55,7 +53,7 @@ class DataManager {
         0.6,
         0.8
     ]
-
+    
     let duration = [
         0.6,
         0.8,

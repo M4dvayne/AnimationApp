@@ -6,7 +6,6 @@
 //
 
 
-
 struct Parameter {
     let preset: String
     let curve: String
