@@ -1,3 +1,3 @@
 # AnimationApp
 This project is an animation app and homework task
-Spring module is loosen
+Spring module should be reinstall
